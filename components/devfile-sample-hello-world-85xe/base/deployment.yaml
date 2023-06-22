@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hello-world-85xe
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/susdas_quay_org/build-e2e-sunb-tenant/test-app-etfq/devfile-sample-hello-world-85xe@sha256:68905b595d3eba2c7af85a40a7aa5918b7a06e3f3c6f955309e0b83690fac273
         name: my-nginx
         ports:
         - containerPort: 8080
